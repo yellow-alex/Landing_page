@@ -1,4 +1,5 @@
 * {
+    margin: 0px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -53,7 +54,7 @@ button {
     background-color: #3882f6;
     color: white;
     font-size: 18px;
-    border-radius: 7%;
+    border-radius: 5px;
     border: none;
     padding: 5px 20px;
 }
@@ -99,4 +100,30 @@ button {
 .khh {
     font-size: 36px;
     font-weight: 300;
+}
+
+.middle3 {
+    padding: 90px 200px;
+}
+
+.pop {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 50px;
+}
+
+.up {
+    outline: 3px solid rgb(255, 255, 255);
+}
+
+.buttom {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
